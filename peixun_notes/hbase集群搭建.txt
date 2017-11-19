@@ -28,6 +28,8 @@
                 <value>weekend04:2181,weekend05:2181,weekend06:2181</value>
         </property>
 	</configuration>
+
+编辑regionservers,增加region服务器
 	
 	vim regionservers
 	weekend03
@@ -46,7 +48,7 @@
 5.启动所有的hbase
 	分别启动zk
 		./zkServer.sh start
-	启动hbase集群
+	启动hadoop集群
 		start-dfs.sh
 	启动hbase，在主节点上运行：
 		start-hbase.sh
